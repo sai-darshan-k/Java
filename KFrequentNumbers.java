@@ -3,7 +3,7 @@ import java.util.*;
 public class KFrequentNumbers {
 
     static void print_N_mostFrequentNumbers(int[] arr, int N, int K) {
-        int[] frequencyArray = new int[1001]; // Assuming the range of numbers is from 0 to 1000
+        int[] frequencyArray = new int[1001];
 
         // Count the frequency of each number
         for (int i = 0; i < N; i++) {
